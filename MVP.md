@@ -1,11 +1,11 @@
 # NBA regression analysis
 
-After web scraping from Espn and basketball-reference.com, I obtained 2833 columns along with 31 features. I selected the useful features and created this pairplot, and realized that fitting a simple linear regression model may not work because the scatter plot shows no sign of pure linear relationship
+After web scraping from Espn and basketball-reference.com, I obtained 2833 columns along with 31 features. 
 
 
 ![possalary](https://user-images.githubusercontent.com/63031028/114515940-c0dc0380-9bf1-11eb-989e-c56496ffe62e.png)
 
-I used Age as a feature and Position as a hue to see if there is a relationship between salary and age. This graph tells me that there is, and experienced Point Guard benefits the most in aging. In order to predict how the features contributed to the growth of salaries, I tested all the features with four separate models.
+For example, I used Age as a feature and Position as a hue to see if there is a relationship between salary and age. This graph tells me that there is, and experienced Point Guard benefits the most in aging. In order to predict how the features contributed to the growth of salaries, I tested all the features with four separate models.
 
 - Linear Regression val R^2: -337707308563977600.000
 - Degree 2 polynomial regression val R^2: -4540475800458.793
