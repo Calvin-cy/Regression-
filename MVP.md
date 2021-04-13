@@ -12,4 +12,5 @@ After web scraping from Espn and basketball-reference.com, I obtained 2833 colum
 
 I tried different regression model and found out that Ridge and Lasso work for my dataset. 
 
-The MVP is to keep digging into Ridge and Lasso, create a plot to find the best alpha of each one, and add some features to get the best score of R-squared
+
+The MVP is to keep digging into Ridge and Lasso, create a plot to find the best alpha of each one, and add or reduce some features to get the best score of R-squared
