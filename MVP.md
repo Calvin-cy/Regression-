@@ -6,8 +6,8 @@ After web scraping from Espn and basketball-reference.com, I obtained 2833 colum
 ![pairplot](https://user-images.githubusercontent.com/63031028/114510943-22996f00-9bec-11eb-85fa-1125c190967c.png)
 
 - Linear Regression val R^2: -337707308563977600.000
-- Degree 2 polynomial regression val R^2: 
-- Ridge Regression val R^2: 0.507-4540475800458.793
+- Degree 2 polynomial regression val R^2: -4540475800458.793
+- Ridge Regression val R^2: 0.507
 - Lasso Regression val R^2: 0.506
 
 I tried different regression model and found out that Ridge and Lasso work for my dataset. 
